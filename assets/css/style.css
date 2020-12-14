@@ -11,11 +11,11 @@ body{
     /*color: #66bb6a;*/
     color: #69f0ae;
 }
-.logo-letter:nth-child(6){
+.logo-letter:nth-child(22){
     /*color: #448aff;*/
     color: #bbdefb;
 }
-.logo-letter:nth-child(11){
+.logo-letter:nth-child(2){
     color: #fbc02d;
 }
 .nav-header{
@@ -200,10 +200,21 @@ nav .brand-logo img {
     font-weight: 700;
     font-size: 3.5em;
 }
+.ml12 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
 
 .ml11 .text-wrapper {
     position: relative;
     display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+.ml12 .text-wrapper {
+    position: relative;
+    display: block;
     padding-top: 0.1em;
     padding-right: 0.05em;
     padding-bottom: 0.15em;
@@ -233,10 +244,10 @@ nav .brand-logo img {
 .letter:nth-child(1){
     color: #66bb6a;
 }
-.letter:nth-child(6){
+.letter:nth-child(22){
     color: #448aff;
 }
-.letter:nth-child(11){
+.letter:nth-child(2){
     color: #fbc02d;
 }
 
