@@ -109,7 +109,7 @@
     background-color: #82b1ff!important;
 }
 .dark .input-field>i {
-    color: #eeeeee!important;
+    /*color: #eeeeee!important;*/
 }
 .dark input:not([type]):focus:not([readonly]), .dark input[type=text]:not(.browser-default):focus:not([readonly]), .dark input[type=password]:not(.browser-default):focus:not([readonly]), .dark input[type=email]:not(.browser-default):focus:not([readonly]), .dark input[type=url]:not(.browser-default):focus:not([readonly]), .dark input[type=time]:not(.browser-default):focus:not([readonly]), .dark input[type=date]:not(.browser-default):focus:not([readonly]), .dark input[type=datetime]:not(.browser-default):focus:not([readonly]), .dark input[type=datetime-local]:not(.browser-default):focus:not([readonly]), .dark input[type=tel]:not(.browser-default):focus:not([readonly]), .dark input[type=number]:not(.browser-default):focus:not([readonly]), .dark input[type=search]:not(.browser-default):focus:not([readonly]), .dark textarea.materialize-textarea:focus:not([readonly]) {
     border-bottom: 1px solid #82b1ff;
@@ -283,14 +283,14 @@ body.dark{
     color: #eceff1;
 }
 .dark .section{
-    background-color: #263238;
+    /*background-color: #263238;*/
 }
 .dark input:not([type]):disabled, .dark input:not([type])[readonly="readonly"], .dark input[type=text]:not(.browser-default):disabled, .dark input[type=text]:not(.browser-default)[readonly="readonly"], .dark input[type=password]:not(.browser-default):disabled, .dark input[type=password]:not(.browser-default)[readonly="readonly"], .dark input[type=email]:not(.browser-default):disabled, .dark input[type=email]:not(.browser-default)[readonly="readonly"], .dark input[type=url]:not(.browser-default):disabled, .dark input[type=url]:not(.browser-default)[readonly="readonly"], .dark input[type=time]:not(.browser-default):disabled, .dark input[type=time]:not(.browser-default)[readonly="readonly"], .dark input[type=date]:not(.browser-default):disabled, .dark input[type=date]:not(.browser-default)[readonly="readonly"], .dark input[type=datetime]:not(.browser-default):disabled, .dark input[type=datetime]:not(.browser-default)[readonly="readonly"], .dark input[type=datetime-local]:not(.browser-default):disabled, .dark input[type=datetime-local]:not(.browser-default)[readonly="readonly"], .dark input[type=tel]:not(.browser-default):disabled, .dark input[type=tel]:not(.browser-default)[readonly="readonly"], .dark input[type=number]:not(.browser-default):disabled, .dark input[type=number]:not(.browser-default)[readonly="readonly"], .dark input[type=search]:not(.browser-default):disabled, .dark input[type=search]:not(.browser-default)[readonly="readonly"], .dark textarea.materialize-textarea:disabled, .dark textarea.materialize-textarea[readonly="readonly"] {
     color: rgba(255,255,255,0.42) !important;
     border-bottom: 1px dotted rgba(255,255,255,0.42) !important;
 }
 .dark input[type=text]:not(.browser-default), .dark input[type=password]:not(.browser-default), .dark input[type=email]:not(.browser-default), .dark input[type=url]:not(.browser-default), .dark input[type=time]:not(.browser-default), .dark input[type=date]:not(.browser-default), .dark input[type=datetime]:not(.browser-default), .dark input[type=datetime-local]:not(.browser-default), .dark input[type=tel]:not(.browser-default), .dark input[type=number]:not(.browser-default), .dark input[type=search]:not(.browser-default), .dark textarea.materialize-textarea {
-    border-bottom: 1px solid #eeeeee;
+    /*border-bottom: 1px solid #eeeeee;*/
     color: #eeeeee;
 }
 .dark #save, .dark #login_btn{
@@ -316,4 +316,10 @@ body.dark{
 }
 .dark .card-action>a:hover {
     color: #90caf9!important;
+}
+.dark .sub-nav{
+    background-color: #263238;
+}
+.dark .sub-heading{
+    color: #eceff1;
 }
