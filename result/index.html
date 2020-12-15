@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Result</title>
+    <title>Home</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="github.com/AmeyGohil">
@@ -27,9 +27,9 @@
     <div id="main">
         <nav  class="nav-header bg-fixed bg3">
             <div class="nav-wrapper">
-                <a href="../results" class="brand-logo">
+                <a href="../result" class="brand-logo">
                     <span class="logo">
-                        <span class="logo-letter">L</span><span class="logo-letter">i</span><span class="logo-letter">v</span><span class="logo-letter">e</span><span class="logo-letter">&nbsp;</span><span class="logo-letter">C</span><span class="logo-letter">h</span><span class="logo-letter">a</span><span class="logo-letter">t</span><span class="logo-letter">&nbsp;</span><span class="logo-letter">.</span>
+                        <span class="logo-letter">M</span><span class="logo-letter">L</span><span class="logo-letter">-</span><span class="logo-letter">b</span><span class="logo-letter">a</span><span class="logo-letter">s</span><span class="logo-letter">e</span><span class="logo-letter">d</span><span class="logo-letter">&nbsp;</span><span class="logo-letter">M</span><span class="logo-letter">a</span><span class="logo-letter">t</span><span class="logo-letter">c</span><span class="logo-letter">h</span><span class="logo-letter">m</span><span class="logo-letter">a</span><span class="logo-letter">k</span><span class="logo-letter">i</span><span class="logo-letter">n</span><span class="logo-letter">g</span>
                     </span>
                 </a>
                 <ul class="right waves-effect menu">
@@ -37,43 +37,56 @@
                 </ul>
             </div>
         </nav>
-        <div class="section">
+        <nav  class="sub-nav">
+            <div class="nav-wrapper">
+                <a href="../result" class="brand-logo">
+                    <span class="sub-heading">
+                        Results
+                    </span>
+                </a>
+            </div>
+        </nav>
+        <div class="section bg5">
+
             <div class="row">
+                <div class="col s12">
+                    <h6>Following are the matches derived from our algorithm with the predicted score (out of 5) of satisfaction - </h6>
+                </div>
                 <form class="col s12">
-                    <div class="row">
-                        <div class="col m9 s12">
+                    <div class="row" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
+                        <div class="col m6" style="margin: auto">
+
                             <div class="section row" id="detail-form">
-                                <div class="input-field col m12 s12">
-                                    <i class="material-icons prefix">account_circle</i>
-                                    <input id="name" type="text" class="validate" disabled minlength="4">
-                                    <span class="helper-text" data-error="Please enter a valid name" data-success="Valid &check;"></span>
-                                    <label for="name">Name</label>
-                                </div>
-                                <div class="input-field col s12 m12">
-                                    <i class="material-icons prefix">mail</i>
-                                    <input id="email" type="email" class="validate" disabled>
-                                    <span class="helper-text" data-error="Please enter a valid email address" data-success="Valid &check;"></span>
-                                    <label for="email">E-Mail Address</label>
+                                <div class="collection">
+                                    <a href="#!" class="collection-item">
+                                        <span class="badge">
+                                            <i class="material-icons waves-effect tooltipped" data-position="top" data-tooltip="Chat with Mary Jane">message</i>
+                                        </span>
+                                        <span class="badge">Score - 4.7</span>
+                                        Mary Jane
+                                    </a>
+                                    <a href="#!" class="collection-item">
+                                        <span class="badge">
+                                            <i class="material-icons waves-effect tooltipped" data-position="top" data-tooltip="Chat with Maria Williams">message</i>
+                                        </span>
+                                        <span class="badge">Score - 4.5</span>
+                                        Maria Williams
+                                    </a>
+                                    <a href="#!" class="collection-item">
+                                        <span class="badge">
+                                            <i class="material-icons waves-effect tooltipped" data-position="top" data-tooltip="Chat with Juan Carlos">message</i>
+                                        </span>
+                                        <span class="badge">Score - 4.7</span>
+                                        Juan Carlos
+                                    </a>
                                 </div>
                                 <span class="helper-text red-text" style="display:none;" id="error"></span>
                             </div>
-                            <div class="section row" id="pass-form" style="display: none">
-                                <div class="input-field col s12 m12">
-                                    <i class="material-icons prefix">lock</i>
-                                    <i id="eye" class="waves-effect fa fa-eye left postfix"></i>
-                                    <input id="password" type="password" class="validate" minlength="8">
-                                    <span class="helper-text" data-error="Password must be at least 8 characters long" data-success="Valid &check;"></span>
-                                    <label for="password">Password</label>
-                                </div>
-                                <span class="helper-text red-text" style="display:none;" id="pass-error"></span>
-                            </div>
                         </div>
-                        <div class="col m3 s12">
+                        <div class="col m12 s12">
                             <div class="button_section section">
                                 <div class="button-container">
-                                    <button class="waves-effect waves-light btn blue accent-2 scale-transition scale-in" type="submit" id="edit">EDIT<i class="fa fas fa-pencil right"></i></button>
-                                    <button class="waves-effect waves-light btn green lighten-1 scale-transition scale-out" type="submit" id="save">UPDATE<i class="fa fas fa-sign-in right"></i></button>
-                                    <button class="waves-effect waves-light btn blue accent-2 scale-transition scale-in" type="submit" id="change-pass">CHANGE PASSWORD<i class="fa fas fa-lock right"></i></button>
+                                    <a class="waves-effect waves-light btn blue accent-2 scale-transition scale-in" id="proceed" href = './'>Refresh<i class="fa fas fa-refresh right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -93,10 +106,10 @@
         <div class="side-menu-items">
             <div class="side-menu-div">
                 <ul>
-                    <li><a href="../results"><i class="material-icons left">home</i>Home</a></li>
-                    <li class="active"><a href="#!"><i class="material-icons left">person</i>Profile</a></li>
-                    <li><a href="#!" id="addGroup" data-target="addGroupModal" class="modal-trigger"><i class="material-icons left">group_add</i>Create Group</a></li>
-                    <li><a href="../games"><i class="material-icons left">videogame_asset</i>Games</a></li>
+                    <li class="active"><a href="../result"><i class="material-icons left">home</i>Home</a></li>
+                    <li><a href="#!"><i class="material-icons left">person</i>Profile</a></li>
+                    <!--                    <li><a href="#!" id="addGroup" data-target="addGroupModal" class="modal-trigger"><i class="material-icons left">group_add</i>Create Group</a></li>-->
+                    <!--                    <li><a href="../games"><i class="material-icons left">videogame_asset</i>Games</a></li>-->
                     <li><a href="#!" onclick="toggleDarkMode()"><i class="material-icons left">brightness_4</i>DarkMode</a></li>
                     <li><a href="#!" onclick="logout()"><i class="material-icons left">exit_to_app</i>LogOut</a></li>
                 </ul>

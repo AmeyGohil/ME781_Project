@@ -21,8 +21,24 @@ body{
 .nav-header{
     /*background:#e1f5fe;*/
 }
+.roll{
+    font-size: 20px;
+}
+.name{
+    padding-top: 15px;
+    margin-right: -30px;
+    margin-left: -30px;
+    font-size: 25px;
+}
+.profile-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .profile-image{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .profile-image>img{
     height: 15vw;

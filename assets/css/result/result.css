@@ -44,6 +44,22 @@ nav .brand-logo, nav ul {
     align-items: center;
 }
 
+.sub-heading{
+    color: black;
+}
+.sub-nav{
+    background-color: #e3f2fd;
+}
+
+.input-field .prefix.active {
+    color: #42a5f5;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #42a5f5;
+    -webkit-box-shadow: 0 1px 0 0 #42a5f5;
+    box-shadow: 0 1px 0 0 #42a5f5;
+}
+
 .logo{
     font-style: italic;
     color: black;
@@ -53,11 +69,11 @@ nav .brand-logo, nav ul {
     /*color: #66bb6a;*/
     color: #69f0ae;
 }
-.logo-letter:nth-child(6){
+.logo-letter:nth-child(22){
     /*color: #448aff;*/
     color: #bbdefb;
 }
-.logo-letter:nth-child(11){
+.logo-letter:nth-child(2){
     color: #fbc02d;
 }
 .postfix{
@@ -311,4 +327,7 @@ section.section .divider{
 }
 input:disabled{
     cursor: not-allowed;
+}
+.collection-item{
+    color: black!important;
 }
